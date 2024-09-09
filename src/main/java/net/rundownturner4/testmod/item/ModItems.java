@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BRIMSTONE = ITEMS.register("brimstone",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_BRIMSTONE = ITEMS.register("raw_brimstone",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

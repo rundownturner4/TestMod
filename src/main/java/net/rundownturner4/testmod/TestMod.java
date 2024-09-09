@@ -56,6 +56,7 @@ public class TestMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.BRIMSTONE);
+            event.accept(ModItems.RAW_BRIMSTONE);
         }
 
     }
